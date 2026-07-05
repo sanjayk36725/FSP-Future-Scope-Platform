@@ -1,0 +1,116 @@
+"""Constants"""
+
+# User Roles
+ROLE_STUDENT = "student"
+ROLE_FACULTY = "faculty"
+ROLE_DEVELOPER = "developer"
+ROLE_RECRUITER = "recruiter"
+ROLE_HR_MANAGER = "hr_manager"
+ROLE_ADMINISTRATOR = "administrator"
+
+ALL_ROLES = [
+    ROLE_STUDENT,
+    ROLE_FACULTY,
+    ROLE_DEVELOPER,
+    ROLE_RECRUITER,
+    ROLE_HR_MANAGER,
+    ROLE_ADMINISTRATOR
+]
+
+# Permissions
+PERMISSION_VIEW = "view"
+PERMISSION_CREATE = "create"
+PERMISSION_UPDATE = "update"
+PERMISSION_DELETE = "delete"
+PERMISSION_MANAGE_USERS = "manage_users"
+PERMISSION_MANAGE_ROLES = "manage_roles"
+PERMISSION_MANAGE_SYSTEM = "manage_system"
+
+# AI Agent Types
+AGENT_PERSONAL_TUTOR = "personal_tutor"
+AGENT_CODING_MENTOR = "coding_mentor"
+AGENT_ASSIGNMENT_HELPER = "assignment_helper"
+AGENT_QUIZ_GENERATOR = "quiz_generator"
+AGENT_PLACEMENT_PREP = "placement_prep"
+AGENT_RESUME_REVIEW = "resume_review"
+AGENT_CAREER_GUIDANCE = "career_guidance"
+AGENT_ATTENDANCE_ANALYSIS = "attendance_analysis"
+AGENT_CODE_GENERATION = "code_generation"
+AGENT_CODE_REVIEW = "code_review"
+AGENT_DEBUGGING = "debugging"
+AGENT_UNIT_TEST = "unit_test"
+AGENT_API_DOCUMENTATION = "api_documentation"
+AGENT_SQL_QUERY = "sql_query"
+AGENT_DEVOPS = "devops"
+AGENT_GITHUB_PR_REVIEW = "github_pr_review"
+AGENT_RESUME_SCREENING = "resume_screening"
+AGENT_CANDIDATE_MATCHING = "candidate_matching"
+AGENT_MOCK_INTERVIEW = "mock_interview"
+AGENT_SKILL_GAP = "skill_gap"
+AGENT_CODING_EVALUATION = "coding_evaluation"
+AGENT_COMMUNICATION_ASSESSMENT = "communication_assessment"
+AGENT_ONBOARDING = "onboarding"
+AGENT_LEAVE_MANAGEMENT = "leave_management"
+AGENT_POLICY_QA = "policy_qa"
+AGENT_PAYROLL = "payroll"
+AGENT_FEEDBACK = "feedback"
+AGENT_HELPDESK = "helpdesk"
+AGENT_TIMETABLE = "timetable"
+AGENT_LAB_BOOKING = "lab_booking"
+AGENT_PLACEMENT_COORDINATOR = "placement_coordinator"
+AGENT_EVENT_REGISTRATION = "event_registration"
+AGENT_LIBRARY = "library"
+AGENT_HOSTEL = "hostel"
+AGENT_FEE_INQUIRY = "fee_inquiry"
+
+ALL_AGENTS = [
+    AGENT_PERSONAL_TUTOR,
+    AGENT_CODING_MENTOR,
+    AGENT_ASSIGNMENT_HELPER,
+    AGENT_QUIZ_GENERATOR,
+    AGENT_PLACEMENT_PREP,
+    AGENT_RESUME_REVIEW,
+    AGENT_CAREER_GUIDANCE,
+    AGENT_ATTENDANCE_ANALYSIS,
+    AGENT_CODE_GENERATION,
+    AGENT_CODE_REVIEW,
+    AGENT_DEBUGGING,
+    AGENT_UNIT_TEST,
+    AGENT_API_DOCUMENTATION,
+    AGENT_SQL_QUERY,
+    AGENT_DEVOPS,
+    AGENT_GITHUB_PR_REVIEW,
+    AGENT_RESUME_SCREENING,
+    AGENT_CANDIDATE_MATCHING,
+    AGENT_MOCK_INTERVIEW,
+    AGENT_SKILL_GAP,
+    AGENT_CODING_EVALUATION,
+    AGENT_COMMUNICATION_ASSESSMENT,
+    AGENT_ONBOARDING,
+    AGENT_LEAVE_MANAGEMENT,
+    AGENT_POLICY_QA,
+    AGENT_PAYROLL,
+    AGENT_FEEDBACK,
+    AGENT_HELPDESK,
+    AGENT_TIMETABLE,
+    AGENT_LAB_BOOKING,
+    AGENT_PLACEMENT_COORDINATOR,
+    AGENT_EVENT_REGISTRATION,
+    AGENT_LIBRARY,
+    AGENT_HOSTEL,
+    AGENT_FEE_INQUIRY,
+]
+
+# File Types
+ALLOWED_FILE_EXTENSIONS = ["pdf", "docx", "txt", "csv", "xlsx", "jpg", "png", "gif", "zip"]
+
+# Status
+STATUS_ACTIVE = "active"
+STATUS_INACTIVE = "inactive"
+STATUS_PENDING = "pending"
+STATUS_APPROVED = "approved"
+STATUS_REJECTED = "rejected"
+
+# Pagination
+DEFAULT_PAGE_SIZE = 20
+MAX_PAGE_SIZE = 100
